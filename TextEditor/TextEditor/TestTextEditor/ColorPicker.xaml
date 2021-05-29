@@ -1,0 +1,40 @@
+﻿<Window x:Class="TestTextEditor.ColorPicker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestTextEditor"
+        mc:Ignorable="d"
+        Title="ColorPicker" Height="245" Width="225"
+        ResizeMode="NoResize">
+    <Grid>
+        <WrapPanel>
+            <Button Background="White"                  Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="LightYellow"            Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="Yellow"                 Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="LightGreen"             Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="YellowGreen"            Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="Green"                  Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="CadetBlue"              Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="LightBlue"              Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="Blue"                   Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="DarkBlue"               Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="Pink"                   Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="Violet"                 Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="PaleVioletRed"          Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="MediumVioletRed"        Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="Red"                    Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="DarkRed"                Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="SandyBrown"             Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="Orange"                 Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="DarkOrange"             Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="Chocolate"              Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="SaddleBrown"            Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="DarkGray"               Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="Gray"                   Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="DimGray"                Width="40" Height="40" Click="PickColor_Click"/>
+            <Button Background="Black"                  Width="40" Height="40" Click="PickColor_Click"/>
+
+        </WrapPanel>
+    </Grid>
+</Window>
